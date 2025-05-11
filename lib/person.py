@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
 class Person:
-    # Class body goes here
+    def talk(self):
+        """Prints 'Hello World!'"""
+        print("Hello World!")
 
-    #Instance method definition
-    pass
+    def walk(self):
+        """Prints 'The person is walking.'"""
+        print("The person is walking.")
